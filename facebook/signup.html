@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contain">
+      <h1 class="header">Sign Up</h1>
+      <p>It's quick and easy</p>
+      <hr>
+      <form class="form2">
+        <div class="name">
+            <input type="text" name="First name" placeholder="First name" autofocus/>
+            <input type="text" name="Surname" placeholder="Surname" required>
+        </div>
+        <div>
+            <input class="email" type="email or tel" name="Mobile number or email address" placeholder="Mobile number or email address" required>
+        </div>
+        <div>
+            <input class="password" type="password" name="New password" placeholder="New password" required>
+        </div>
+        <div>
+            <label class="DOB">Date of birth ?</label>
+        </div> 
+        <div class="select">  
+            <select id="day" name="day">
+              <option value="21">21</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+            <select id="month" name="month">
+              <option value="Sep">Sep</option>
+              <option value="Feb">Feb</option>
+              <option value="March">March</option>
+              <option value="April">April</option>
+              <option value="May">May</option>
+              <option value="June">June</option>
+            </select>
+            <select id="year" name="year">
+              <option value="2022">2022</option>
+              <option value="2021">2021</option>
+              <option value="2020">2020</option>
+              <option value="2019">2019</option>
+              <option value="2018">2018</option>
+            </select>
+        </div>    
+        <div class="column">
+            <label class="m">male</label>
+            <input class="male" type="radio">
+            <label class="f">female</label> 
+            <input class="female" type="radio">
+            <label class="c">custom</label>
+            <input class="custom" type="radio">
+        </div>
+        <p>People who use our service may have uploaded your contact information to Facebook. <span style="color: blue;">Learn more.</span>
+        <p>By clicking Sign Up, you agree to our <span style="color: blue;">Terms, Privacy Policy</span> and <span style="color: blue;">Cookies Policy.</span><br>
+           You may receive SMS notifications from us and can opt out at any time.</p>
+        <div class="sign up">
+            <button class="button" type="button">Sign Up</button>
+        </div> 
+      </form>
+    </div>     
+</body>
+</html>
